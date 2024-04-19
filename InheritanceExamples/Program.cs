@@ -17,6 +17,8 @@ namespace InheritanceExamples
             ChildClass1 obj1 = new ChildClass1("Hello");
             obj1.Display("This is ChildClass1 object invoked Display method in parent class");
             obj1.Display(1000);
+            ChildClass2 obj2 = new ChildClass2("Hello");
+            obj2.Display("Reached");
         }
     }
 }

@@ -7,5 +7,10 @@ namespace Child2
         {
             Console.WriteLine("This is child class 2");
         }
+
+        public new void Display(string message)
+        {
+            Console.WriteLine("Message reached to childclass2:"+message);
+        }
     }
 }
